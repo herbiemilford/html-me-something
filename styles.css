@@ -4,24 +4,24 @@ h1{
   color:white;
   padding:40px 40px 0px 40px;
   margin-bottom:-20px;
+  text-align:center;
   }
 h3{
   font-style:italic;
   padding:0px 40px 40px 40px;
+  text-align:center;
 }
-body {
-    background-color: grey;
-    }
-p {
-    font-size:20px;
-    font-family: cabin;
-  padding-top:20px;
+        p {
+         margin:auto;
+         font-size:20px;
+         font-family: cabin;
+         padding-top:20px;
   }
 
   #birdnames{
     margin-top:50px;
     padding-bottom:15px;
-    background-color:;
+    background-color:blanchedalmond;
     width:60%;
     margin-left:20%;
   }
@@ -31,3 +31,73 @@ p {
     margin-right: 300px;
     font-size: 25px;
     font-family: luckiestguy Monospace;
+
+div.a {
+    margin-left: 300px;
+    margin-right: 300px;
+        text-align: center;
+    }
+
+.intro {
+        text-align: center;
+        border: px solid green;
+    }
+
+img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+        }
+        h1{
+            font-size: 100px;
+            font-family: luckiestguy Monospace;
+          color:white;
+          padding:40px 40px 0px 40px;
+          margin-bottom:-20px;
+          }
+        h2{
+          font-style:italic;
+          padding:0px 40px 40px 40px;
+        }
+        h4{
+          font-size:25px;
+        }
+        #bio{
+          margin-top:50px;
+          padding-bottom:15px;
+          background-color:;
+          width:60%;
+          margin-left:20%;
+        }
+         p {
+            font-size:20px;
+            font-family: cabin;
+          padding-top:20px;
+          }
+        p a{
+          color:white;
+        }
+        p a:hover{
+          color:black;
+        }
+        
+        body {
+        background-color: grey;
+        }
+        
+        #tom {
+          border: 5px solid black;
+          border-radius: 60px;
+          background-color:black;
+          
+          }
+        
+        ul {
+            margin-left: 300px;
+            margin-right: 300px;
+            font-size: 25px;
+            font-family: luckiestguy Monospace;
+          #link{
+            margin-top:50%;
+          }
