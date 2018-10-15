@@ -1,41 +1,100 @@
+
+
+  .block {
+    padding:10px;
+    opacity:.8;
+    background-color:white;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:2%;
+  }
+
+
 body{
-    background-color:rgb(80, 80, 80);
+  background:
+  radial-gradient(transparent, rgba(255, 204, 0, 0.591)),
+  radial-gradient(transparent, rgba(12, 10, 0, 0.591)),
+  Url(file:///Users/toast/lc101/html-me-something/images%20for%20html-me-something/IMG_1838.JPG);
+    background-color:rgb(80, 80, 60);
+    background-size:cover;
     text-align:center;
+    margin:20px 20px 80px 20px;
+    border-radius:%;
+    border:10px solid goldenrod;
+    min-height: 100%;
+    
+
 }
 
 
 h1{
-    font-size: 100px;
-    font-style:luckiestguy Monospace ;
+  margin-right:600;
+  margin-left:600;
+    font-size: 150px;
+    font-family: 'Helvetica Neue', sans-serif;
   color:white;
-  padding:40px 40px 0px 40px;
-  margin-bottom:-20px;
+  padding:0px 0px 150px 0px;
+  margin-bottom:70px;
   text-align:center;
+  
+  
+    white-space: nowrap;
+    position: absolute;
+    top: 185px;
+    left: -20px;
+    transform: rotate(270deg);
+    .first-letter {
+      font-size: 100px;
+      line-height: 500px;
+    }
+    
+  
+
   }
+
 h3{
   font-size:50px;
+  color: rgba(2, 103, 140, 0.728);
   font-style:italic;
-  padding:0px 40px 40px 40px;
-  text-align:center;
+  padding:20px 20px 40px 40px;
+  text-align:center; 
+
+    white-space: nowrap;
+    position: absolute;
+    top: 156px;
+    left: -20px;
+    transform: rotate(270deg);
+  
+
+
 }
 p {
-    margin:auto;
+    margin:10px 10px 10px 10px;
     font-size:30px;
     font-family: cabin;
     padding-top:20px;
+    padding-right:30px;
+    padding-left:30px;
     padding-bottom:20px;
   }
 #birdnames{
     margin-top:60px;
     padding-top:15px;
     padding-bottom:15px;
-    
-    background-color:grey;
+    font-size:50px;
+    text-align:center;
+    list-style:none;
+    background-color:;
     width:60%;
     margin-left:20%;
   }
 
-ul {
+ul { 
+    font-size: 200%;;
+list-style:none;
+    text-align: center;
+    color:blue;
     margin-left: 300px;
     margin-right: 300px;
     font-size: 25px;
@@ -48,21 +107,24 @@ ul {
 
 
 img{
+  image-orientation:center;
     display: block;
-    border:30px solid black;
-    border-radius:9%;
-    margin-left: 450px;
-    margin-right: 300px;
+    border:10px solid black;
+    border-radius:4%;
+    margin-left: auto;
+    margin-right: auto;
 }
 img.b{
+  image-orientation:center;
   display: block;
-  margin-left: 250px;
-  margin-right:400px;
+  margin-left: auto;
+  margin-right:auto;
   padding-right:0px;
 }
 h2{
           font-style:italic;
           padding:0px 40px 40px 40px;
+          
         }
 
 p {
@@ -70,14 +132,41 @@ p {
         font-family: cabin;
         padding-top:20px;
           }
+.white{
+  color:white;
+  font-family: helvetica;
+ 
+}
 .a {
   padding-top:20px;
     font-size:50px;
     color:white;
         }
+.footer{
+  font-size:30px;
+  font-family: helvetica;
+  white-space: nowrap;
+    position: absolute;
+    bottom: -1756px;
+    right: -97px;
+    transform: rotate(270deg);
+}
+
+.headline {
+  white-space: nowrap;
+  position: absolute;
+  top: 185px;
+  left: -120px;
+  transform: rotate(270deg);
+}
+p::first-letter { 
+  font-size: 200%;
+  color: rgba(2, 103, 140, 0.728);
+}
 
 
         
+.blue{
+  color:blue;
 
-        
-
+}
