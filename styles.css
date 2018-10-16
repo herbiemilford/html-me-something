@@ -98,7 +98,7 @@ list-style:none;
     margin-left: 300px;
     margin-right: 300px;
     font-size: 25px;
-    font-family: luckiestguy Monospace;
+    font-family:;
 
 }
 
@@ -127,9 +127,9 @@ h2{
           
         }
 
-p {
+p {     color: white;
         font-size:30px;
-        font-family: cabin;
+        font-family: helvetica;
         padding-top:20px;
           }
 .white{
