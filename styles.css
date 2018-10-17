@@ -91,14 +91,13 @@ p {
   }
 
 ul { 
-    font-size: 200%;;
+    
 list-style:none;
     text-align: center;
-    color:blue;
     margin-left: 300px;
     margin-right: 300px;
-    font-size: 25px;
-    font-family:;
+    font-size: px;
+    font-family:helvetica;
 
 }
 
@@ -135,6 +134,7 @@ p {     color: white;
 .white{
   color:white;
   font-family: helvetica;
+  font-size:30px;
  
 }
 .a {
